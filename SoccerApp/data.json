@@ -1,0 +1,626 @@
+[
+    {
+    "league": "English Premier League",
+    "photoLeague": "apl",
+    "table": [
+        {
+            "team": "Manchester City",
+            "played": 20,
+            "won": 15,
+            "drawn": 4,
+            "lost": 1,
+            "points": 49,
+            "photo": "url_to_manchester_city_image"
+        },
+        {
+            "team": "Liverpool",
+            "played": 19,
+            "won": 14,
+            "drawn": 4,
+            "lost": 1,
+            "points": 46,
+            "photo": "url_to_liverpool_image"
+        },
+        {
+            "team": "Chelsea",
+            "played": 20,
+            "won": 12,
+            "drawn": 5,
+            "lost": 3,
+            "points": 41,
+            "photo": "url_to_chelsea_image"
+        }
+    ],
+    "matches": [
+        {
+            "id": 1,
+            "homeTeam": "Manchester United",
+            "awayTeam": "Liverpool",
+            "date": "2024-01-22",
+            "status": "finished",
+            "result": {
+                "homeTeamGoals": 2,
+                "awayTeamGoals": 1
+            },
+            "photoHomeTeam": "MU",
+            "photoAwayTeam": "ARSENAL",
+            "coefficientHomeTeam": 1.68,
+            "coefficientAwayTeam": 3.21,
+            "photo": "url_to_manchester_united_vs_arsenal_image",
+            "stats": {
+                "possessionHomeTeam": 60.5,
+                "possessionAwayTeam": 39.5,
+                "cornersHomeTeam": 8,
+                "cornersAwayTeam": 4,
+                "shotsHomeTeam": 15,
+                "shotsAwayTeam": 10,
+                "shotsOnTargetHomeTeam": 9,
+                "shotsOnTargetAwayTeam": 4,
+                "foulsHomeTeam": 12,
+                "foulsAwayTeam": 8
+            },
+        },
+        {
+            "id": 2,
+            "homeTeam": "Tottenham Hotspur",
+            "awayTeam": "Manchester City",
+            "date": "2024-01-23",
+            "status": "pending",
+            "result": {
+                "homeTeamGoals": 2,
+                "awayTeamGoals": 1
+            },
+            "photoHomeTeam": "Liverpool",
+            "photoAwayTeam": "Chelsea",
+            "coefficientHomeTeam": 1.68,
+            "coefficientAwayTeam": 3.21,
+            "photo": "url_to_liverpool_vs_chelsea_image",
+            "stats": {
+                "possessionHomeTeam": 60.5,
+                "possessionAwayTeam": 39.5,
+                "cornersHomeTeam": 8,
+                "cornersAwayTeam": 4,
+                "shotsHomeTeam": 15,
+                "shotsAwayTeam": 10,
+                "shotsOnTargetHomeTeam": 9,
+                "shotsOnTargetAwayTeam": 4,
+                "foulsHomeTeam": 12,
+                "foulsAwayTeam": 8
+            },
+        }
+    ],
+    "todayMatches": [
+        {
+            "id": 3,
+            "homeTeam": "Арсенал",
+            "awayTeam": "Челсі",
+            "date": "2024-01-24",
+            "status": "ongoing",
+            "currentMinute": 35,
+            "result": {
+                "homeTeamGoals": 2,
+                "awayTeamGoals": 3,
+                "homePlayerWhoScored" : [
+                    {
+                        "name": "Bukayo",
+                        "lastName": "Saka",
+                        "minute": 27,
+                    },
+                    {
+                        "name": "Oleksandr",
+                        "lastName": "Zinchenko",
+                        "minute": 17,
+                    },
+                ],
+                "awayPlayerWhoScored" : [
+                    {
+                        "name": "Mihaylo",
+                        "lastName": "Mudryk",
+                        "minute": 37,
+                    },
+                    {
+                        "name": "Mihaylo",
+                        "lastName": "Mudryk",
+                        "minute": 87,
+                    },
+                    {
+                        "name": "Mihaylo",
+                        "lastName": "Mudryk",
+                        "minute": 7,
+                    },
+                ],
+            },
+            
+            "photoHomeTeam": "Arsenal",
+            "photoAwayTeam": "Chelsea",
+            "coefficientHomeTeam": 1.68,
+            "coefficientAwayTeam": 3.21,
+            "photo": "url_to_tottenham_vs_manchester_city_image",
+            "stats": {
+                "possessionHomeTeam": 60.5,
+                "possessionAwayTeam": 39.5,
+                "cornersHomeTeam": 8,
+                "cornersAwayTeam": 4,
+                "shotsHomeTeam": 15,
+                "shotsAwayTeam": 10,
+                "shotsOnTargetHomeTeam": 9,
+                "shotsOnTargetAwayTeam": 4,
+                "foulsHomeTeam": 12,
+                "foulsAwayTeam": 8
+            },
+            "additionalFeatures": [
+                {
+                    "name": "Live",
+                    "additionalInformationAboutMatch": {
+                        "half": "2nd",
+                        "predictScoreHomeTeam": 1,
+                        "predictScoreAwayTeam": 0
+                    }
+                },
+                {
+                    "name": "H2h",
+                    "strategy": {
+                        "wins": "fsdfff",
+                        "draws": "dadaad",
+                        "losses": "sfsdsdsdf"
+                    }
+                },
+                {
+                    "name": "Line-Up",
+                    "lineups": {
+                        "homeTeam": {
+                            "teamName": "Arsenal",
+                            "formation": "4-3-3",
+                            "players": [
+                                {
+                                    "id": 1,
+                                    "photo": "arsenal_raya",
+                                    "number": 1,
+                                    "name": "Raya",
+                                    "x": 0.5,
+                                    "y": 0.1
+                                },
+                                {
+                                    "id": 2,
+                                    "photo": "arsenal_tomiyasu",
+                                    "number": 14,
+                                    "name": "Tomiyasu",
+                                    "x": 0.15,
+                                    "y": 0.3
+                                },
+                                {
+                                    "id": 3,
+                                    "photo": "arsenal_white",
+                                    "number": 5,
+                                    "name": "White",
+                                    "x": 0.35,
+                                    "y": 0.25
+                                },
+                                {
+                                    "id": 4,
+                                    "photo": "arsenal_saliba",
+                                    "number": 10,
+                                    "name": "Saliba",
+                                    "x": 0.65,
+                                    "y": 0.25
+                                },
+                                {
+                                    "id": 5,
+                                    "photo": "arsenal_rise",
+                                    "number": 3,
+                                    "name": "Rise",
+                                    "x": 0.85,
+                                    "y": 0.3
+                                },
+                                {
+                                    "id": 6,
+                                    "photo": "arsenal_jesus",
+                                    "number": 6,
+                                    "name": "Jesus",
+                                    "x": 0.8,
+                                    "y": 0.5
+                                },
+                                {
+                                    "id": 7,
+                                    "photo": "arsenal_zinchenko",
+                                    "number": 35,
+                                    "name": "Zinchenko",
+                                    "x": 0.5,
+                                    "y": 0.45
+                                },
+                                {
+                                    "id": 8,
+                                    "photo": "arsenal_odegaard",
+                                    "number": 8,
+                                    "name": "Ødegaard",
+                                    "x": 0.2,
+                                    "y": 0.5
+                                },
+                                {
+                                    "id": 9,
+                                    "photo": "arsenal_saka",
+                                    "number": 7,
+                                    "name": "Saka",
+                                    "x": 0.25,
+                                    "y": 0.7
+                                },
+                                {
+                                    "id": 10,
+                                    "photo": "arsenal_martinelli",
+                                    "number": 11,
+                                    "name": "Martinelli",
+                                    "x": 0.75,
+                                    "y": 0.7
+                                },
+                                {
+                                    "id": 11,
+                                    "photo": "arsenal_nhketia",
+                                    "number": 9,
+                                    "name": "Nketia",
+                                    "x": 0.5,
+                                    "y": 0.8
+                                }
+                            ],
+                        },
+                        "awayTeam": {
+                            "teamName": "Chelsea",
+                            "formation": "4-2-3-1",
+                            "players": [
+                                {
+                                    "id": 12,
+                                    "photo": "zinchenko",
+                                    "number": 1,
+                                    "name": "Golciper",
+                                    "x": 0.5,
+                                    "y": 0.1
+                                },
+                                {
+                                    "id": 13,
+                                    "photo": "zinchenko",
+                                    "number": 14,
+                                    "name": "Aubameyang",
+                                    "x": 0.15,
+                                    "y": 0.3
+                                },
+                                {
+                                    "id": 14,
+                                    "photo": "zinchenko",
+                                    "number": 5,
+                                    "name": "Partey",
+                                    "x": 0.35,
+                                    "y": 0.25
+                                },
+                                {
+                                    "id": 15,
+                                    "photo": "zinchenko",
+                                    "number": 10,
+                                    "name": "Smith Rowe",
+                                    "x": 0.65,
+                                    "y": 0.25
+                                },
+                                {
+                                    "id": 16,
+                                    "photo": "zinchenko",
+                                    "number": 3,
+                                    "name": "Tierney",
+                                    "x": 0.85,
+                                    "y": 0.3
+                                },
+                                {
+                                    "id": 17,
+                                    "photo": "zinchenko",
+                                    "number": 6,
+                                    "name": "Magalhães",
+                                    "x": 0.8,
+                                    "y": 0.5
+                                },
+                                {
+                                    "id": 18,
+                                    "photo": "zinchenko",
+                                    "number": 35,
+                                    "name": "Zinchenko",
+                                    "x": 0.5,
+                                    "y": 0.45
+                                },
+                                {
+                                    "id": 19,
+                                    "photo": "zinchenko",
+                                    "number": 8,
+                                    "name": "Ødegaard",
+                                    "x": 0.2,
+                                    "y": 0.5
+                                },
+                                {
+                                    "id": 20,
+                                    "photo": "jesus",
+                                    "number": 9,
+                                    "name": "Jesus",
+                                    "x": 0.25,
+                                    "y": 0.7
+                                },
+                                {
+                                    "id": 18,
+                                    "photo": "martinelli",
+                                    "number": 11,
+                                    "name": "Martinelli",
+                                    "x": 0.75,
+                                    "y": 0.7
+                                },
+                                {
+                                    "id": 19,
+                                    "photo": "nketia",
+                                    "number": 9,
+                                    "name": "Nketia",
+                                    "x": 0.5,
+                                    "y": 0.8
+                                }
+                            ],
+                        }
+                    },
+                },
+            ]
+        },
+        {
+            "id": 4,
+            "homeTeam": "Ліверпуль",
+            "awayTeam": "Евертон",
+            "date": "2024-01-24",
+            "status": "break",
+            "currentMinute": 45,
+            "result": {
+                "homeTeamGoals": 0,
+                "awayTeamGoals": 1,
+                "awayPlayerWhoScored" : [
+                    {
+                        "name": "Віталій",
+                        "lastName": "Миколенко",
+                        "minute": 31,
+                    },
+                ],
+            },
+            "photoHomeTeam": "Liverpool",
+            "photoAwayTeam": "Everton",
+            "coefficientHomeTeam": 1.68,
+            "coefficientAwayTeam": 3.21,
+            "photo": "url_to_leicester_vs_everton_image",
+            "stats": {
+                "possessionHomeTeam": 60.5,
+                "possessionAwayTeam": 39.5,
+                "cornersHomeTeam": 8,
+                "cornersAwayTeam": 4,
+                "shotsHomeTeam": 15,
+                "shotsAwayTeam": 10,
+                "shotsOnTargetHomeTeam": 9,
+                "shotsOnTargetAwayTeam": 4,
+                "foulsHomeTeam": 12,
+                "foulsAwayTeam": 8
+            },
+            "additionalFeatures": [
+                {
+                    "name": "Live",
+                    "additionalInformationAboutMatch": {
+                        "half": "2nd",
+                        "predictScoreHomeTeam": 1,
+                        "predictScoreAwayTeam": 0
+                    }
+                },
+                {
+                    "name": "H2h",
+                    "strategy": {
+                        "wins": "fsdfff",
+                        "draws": "dadaad",
+                        "losses": "sfsdsdsdf"
+                    }
+                },
+                {
+                    "name": "Line-Up",
+                    "lineups": {
+                        "homeTeam": {
+                            "teamName": "Arsenal",
+                            "formation": "4-3-3",
+                            "players": [
+                                {
+                                    "id": 1,
+                                    "photo": "zinchenko",
+                                    "number": 1,
+                                    "name": "Ramsdale",
+                                    "x": 0.5,
+                                    "y": 0.1
+                                },
+                                {
+                                    "id": 2,
+                                    "photo": "zinchenko",
+                                    "number": 14,
+                                    "name": "Aubameyang",
+                                    "x": 0.15,
+                                    "y": 0.3
+                                },
+                                {
+                                    "id": 3,
+                                    "photo": "zinchenko",
+                                    "number": 5,
+                                    "name": "Partey",
+                                    "x": 0.35,
+                                    "y": 0.25
+                                },
+                                {
+                                    "id": 4,
+                                    "photo": "zinchenko",
+                                    "number": 10,
+                                    "name": "Smith Rowe",
+                                    "x": 0.65,
+                                    "y": 0.25
+                                },
+                                {
+                                    "id": 5,
+                                    "photo": "zinchenko",
+                                    "number": 3,
+                                    "name": "Tierney",
+                                    "x": 0.85,
+                                    "y": 0.3
+                                },
+                                {
+                                    "id": 6,
+                                    "photo": "zinchenko",
+                                    "number": 6,
+                                    "name": "Magalhães",
+                                    "x": 0.8,
+                                    "y": 0.5
+                                },
+                                {
+                                    "id": 7,
+                                    "photo": "zinchenko",
+                                    "number": 35,
+                                    "name": "Zinchenko",
+                                    "x": 0.5,
+                                    "y": 0.45
+                                },
+                                {
+                                    "id": 8,
+                                    "photo": "zinchenko",
+                                    "number": 8,
+                                    "name": "Ødegaard",
+                                    "x": 0.2,
+                                    "y": 0.5
+                                },
+                                {
+                                    "id": 9,
+                                    "photo": "zinchenko",
+                                    "number": 34,
+                                    "name": "Xhaka",
+                                    "x": 0.25,
+                                    "y": 0.7
+                                },
+                                {
+                                    "id": 10,
+                                    "photo": "zinchenko",
+                                    "number": 19,
+                                    "name": "Pépé",
+                                    "x": 0.75,
+                                    "y": 0.7
+                                },
+                                {
+                                    "id": 11,
+                                    "photo": "zinchenko",
+                                    "number": 9,
+                                    "name": "Lacazette",
+                                    "x": 0.5,
+                                    "y": 0.8
+                                }
+                            ],
+                        },
+                        "awayTeam": {
+                            "teamName": "Chelsea",
+                            "formation": "4-2-3-1",
+                            "players": [
+                                {
+                                    "id": 12,
+                                    "photo": "zinchenko",
+                                    "number": 1,
+                                    "name": "Golciper",
+                                    "x": 0.5,
+                                    "y": 0.1
+                                },
+                                {
+                                    "id": 13,
+                                    "photo": "zinchenko",
+                                    "number": 14,
+                                    "name": "Aubameyang",
+                                    "x": 0.15,
+                                    "y": 0.3
+                                },
+                                {
+                                    "id": 14,
+                                    "photo": "zinchenko",
+                                    "number": 5,
+                                    "name": "Partey",
+                                    "x": 0.35,
+                                    "y": 0.25
+                                },
+                                {
+                                    "id": 15,
+                                    "photo": "zinchenko",
+                                    "number": 10,
+                                    "name": "Smith Rowe",
+                                    "x": 0.65,
+                                    "y": 0.25
+                                },
+                                {
+                                    "id": 16,
+                                    "photo": "zinchenko",
+                                    "number": 3,
+                                    "name": "Tierney",
+                                    "x": 0.85,
+                                    "y": 0.3
+                                },
+                                {
+                                    "id": 17,
+                                    "photo": "zinchenko",
+                                    "number": 6,
+                                    "name": "Magalhães",
+                                    "x": 0.8,
+                                    "y": 0.5
+                                },
+                                {
+                                    "id": 18,
+                                    "photo": "zinchenko",
+                                    "number": 35,
+                                    "name": "Zinchenko",
+                                    "x": 0.5,
+                                    "y": 0.45
+                                },
+                                {
+                                    "id": 19,
+                                    "photo": "zinchenko",
+                                    "number": 8,
+                                    "name": "Ødegaard",
+                                    "x": 0.2,
+                                    "y": 0.5
+                                },
+                                {
+                                    "id": 20,
+                                    "photo": "zinchenko",
+                                    "number": 34,
+                                    "name": "Xhaka",
+                                    "x": 0.25,
+                                    "y": 0.7
+                                },
+                                {
+                                    "id": 21,
+                                    "photo": "zinchenko",
+                                    "number": 19,
+                                    "name": "Mudruk",
+                                    "x": 0.75,
+                                    "y": 0.7
+                                },
+                                {
+                                    "id": 22,
+                                    "photo": "zinchenko",
+                                    "number": 9,
+                                    "name": "Lacazette",
+                                    "x": 0.5,
+                                    "y": 0.8
+                                }
+                            ],
+                        }
+                    },
+                },
+            ]
+        },
+        {
+            "id": 5,
+            "homeTeam": "Tottenham",
+            "awayTeam": "Aston Villa",
+            "date": "2024-01-24",
+            "status": "upcoming",
+            "result": {
+
+            },
+            "photoHomeTeam": "tottenham",
+            "photoAwayTeam": "aston_villa",
+            "coefficientHomeTeam": 1.68,
+            "coefficientAwayTeam": 3.21,
+            "photo": "url_to_leicester_vs_everton_image"
+        },
+    ]
+}]
